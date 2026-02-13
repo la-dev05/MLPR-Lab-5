@@ -72,24 +72,29 @@ This determines which cluster the template belongs to.
 ### 1. Face Clusters in HSV Feature Space
 
 Faces form two separable clusters based on hue–saturation characteristics.
+![Face Clustering by Hue and Saturation](results/Fig_1.png)
+
 
 ---
 
 ### 2. Cluster Visualization with Face Thumbnails
 
 Each face is plotted at its HSV coordinate and grouped into clusters.
+![K-Means Clustering of Faces Clustering by Hue and Saturation](results/Fig_2.png)
 
 ---
 
 ### 3. Template Face Position in Feature Space
 
 The template face’s HSV feature lies close to one cluster.
+![Template Image in Classification](results/Fig_3.png)
 
 ---
 
 ### 4. Template vs Cluster Comparison
 
 Template face is correctly associated with its nearest cluster using distance.
+![K-Means Clustering of Faces by Hue and Saturation](results/Fig_4.png)
 
 ---
 
