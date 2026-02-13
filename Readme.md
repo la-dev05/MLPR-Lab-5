@@ -1,4 +1,5 @@
 # MLPR Lab 5 — Face Clustering & Template Matching using K-Means
+Lakshya Gupta, CSAI
 
 ## Aim
 
