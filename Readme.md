@@ -3,13 +3,13 @@ Lakshya Gupta, CSAI
 
 ## Aim
 
-The aim of this lab is to apply **distance-based classification and clustering** techniques to facial images.
+The aim of this lab is to apply distance-based classification and clustering techniques to facial images.
 
 Specifically, the task is to:
 
 - Detect faces in an image dataset
 - Extract color-based features (Hue & Saturation)
-- Cluster faces using **K-Means clustering**
+- Cluster faces using K-Means clustering
 - Compare a template face with clustered faces using distance metrics
 
 ---
@@ -18,7 +18,7 @@ Specifically, the task is to:
 
 ### 1. Face Detection
 
-Faces were detected from the input image (`Plaksha_Faculty.jpg`) using **Haar Cascade classifiers** in OpenCV.
+Faces were detected from the input image (`Plaksha_Faculty.jpg`) using Haar Cascade classifiers in OpenCV.
 
 Steps:
 
@@ -30,7 +30,7 @@ Steps:
 
 ### 2. Feature Extraction (HSV Color Space)
 
-Each detected face was converted from **BGR → HSV** color space.
+Each detected face was converted from BGR → HSV color space.
 
 Two features were extracted:
 
@@ -45,7 +45,7 @@ $Face_i = (Hue_i,\ Saturation_i)$
 
 ### 3. Face Clustering using K-Means
 
-Faces were grouped into **2 clusters (K=2)** based on HSV features.
+Faces were grouped into 2 clusters (K=2) based on HSV features.
 
 Algorithm:
 
