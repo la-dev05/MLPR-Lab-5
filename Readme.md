@@ -57,7 +57,7 @@ Algorithm:
 
 ---
 
-### 4️⃣ Template Matching
+### 4. Template Matching
 
 A template image (`Dr_Shashi_Tharoor.jpg`) was processed similarly:
 
