@@ -27,6 +27,8 @@ Steps:
 - Apply Haar cascade face detector
 - Extract face regions
 
+![Face Detection](results/Fig_0.png)
+
 ---
 
 ### 2. Feature Extraction (HSV Color Space)
